@@ -1,0 +1,32 @@
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.Properties.Resources.resources
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.csproj.GenerateResource.Cache
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\bin\Debug\FurnitureShop.exe.config
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\bin\Debug\FurnitureShop.exe
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\bin\Debug\FurnitureShop.pdb
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.Login.resources
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.exe
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.pdb
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.MDImain.resources
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.AddCategory.resources
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.Form1.resources
+D:\shravani\Documents\Visual Studio 2010\Projects\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.AddProduct.resources
+G:\TEMP\FurnitureShop\FurnitureShop\bin\Debug\FurnitureShop.exe.config
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.exe
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.pdb
+G:\TEMP\FurnitureShop\FurnitureShop\bin\Debug\FurnitureShop.exe
+G:\TEMP\FurnitureShop\FurnitureShop\bin\Debug\FurnitureShop.pdb
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.AddCategory.resources
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.AddProduct.resources
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.Form1.resources
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.Login.resources
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.MDImain.resources
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.Properties.Resources.resources
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.csproj.GenerateResource.Cache
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.PurchasePOS.resources
+G:\TEMP\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.PrintBill.resources
+C:\Users\HRITIK\Downloads\FurnitureShop\FurnitureShop\FurnitureShop\bin\Debug\FurnitureShop.exe.config
+C:\Users\HRITIK\Downloads\FurnitureShop\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.exe
+C:\Users\HRITIK\Downloads\FurnitureShop\FurnitureShop\FurnitureShop\obj\x86\Debug\FurnitureShop.pdb
+C:\Users\HRITIK\Downloads\electronicstore\electronicstore\FurnitureShop\bin\Debug\FurnitureShop.exe.config
+C:\Users\HRITIK\Downloads\electronicstore\electronicstore\FurnitureShop\obj\x86\Debug\FurnitureShop.exe
+C:\Users\HRITIK\Downloads\electronicstore\electronicstore\FurnitureShop\obj\x86\Debug\FurnitureShop.pdb
