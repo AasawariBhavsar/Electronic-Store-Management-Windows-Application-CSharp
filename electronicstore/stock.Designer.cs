@@ -81,6 +81,7 @@
             // electronicproductDataSet
             // 
             this.electronicproductDataSet.DataSetName = "electronicproductDataSet";
+            this.electronicproductDataSet.Namespace = "http://tempuri.org/electronicproductDataSet.xsd";
             this.electronicproductDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label1
@@ -97,6 +98,7 @@
             // electronicstoreDataSetFillProductsPos
             // 
             this.electronicstoreDataSetFillProductsPos.DataSetName = "furnitureshopDataSetFillProductsPos";
+            this.electronicstoreDataSetFillProductsPos.Namespace = "http://tempuri.org/furnitureshopDataSetFillProductsPos.xsd";
             this.electronicstoreDataSetFillProductsPos.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // electronicstoreDataSetFillProductsPosBindingSource
@@ -120,6 +122,7 @@
             this.dataGridView1.DataSource = this.tblstockBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(54, 131);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(882, 403);
             this.dataGridView1.TabIndex = 2;
@@ -128,25 +131,33 @@
             // 
             this.stockidDataGridViewTextBoxColumn.DataPropertyName = "stock_id";
             this.stockidDataGridViewTextBoxColumn.HeaderText = "STOCK ID";
+            this.stockidDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.stockidDataGridViewTextBoxColumn.Name = "stockidDataGridViewTextBoxColumn";
+            this.stockidDataGridViewTextBoxColumn.Width = 150;
             // 
             // prodidDataGridViewTextBoxColumn
             // 
             this.prodidDataGridViewTextBoxColumn.DataPropertyName = "prod_id";
             this.prodidDataGridViewTextBoxColumn.HeaderText = "PRODUCT ID";
+            this.prodidDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.prodidDataGridViewTextBoxColumn.Name = "prodidDataGridViewTextBoxColumn";
+            this.prodidDataGridViewTextBoxColumn.Width = 150;
             // 
             // prodnameDataGridViewTextBoxColumn
             // 
             this.prodnameDataGridViewTextBoxColumn.DataPropertyName = "prod_name";
             this.prodnameDataGridViewTextBoxColumn.HeaderText = "PRODUCT NAME";
+            this.prodnameDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.prodnameDataGridViewTextBoxColumn.Name = "prodnameDataGridViewTextBoxColumn";
+            this.prodnameDataGridViewTextBoxColumn.Width = 150;
             // 
             // quantityDataGridViewTextBoxColumn
             // 
             this.quantityDataGridViewTextBoxColumn.DataPropertyName = "Quantity";
             this.quantityDataGridViewTextBoxColumn.HeaderText = "QUANTITY";
+            this.quantityDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.quantityDataGridViewTextBoxColumn.Name = "quantityDataGridViewTextBoxColumn";
+            this.quantityDataGridViewTextBoxColumn.Width = 150;
             // 
             // tblstockBindingSource1
             // 
@@ -156,6 +167,7 @@
             // electronicstockDataSet
             // 
             this.electronicstockDataSet.DataSetName = "electronicstockDataSet";
+            this.electronicstockDataSet.Namespace = "http://tempuri.org/electronicstockDataSet.xsd";
             this.electronicstockDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tbl_stockTableAdapter1
@@ -188,6 +200,7 @@
             this.Name = "stock";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "stock";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.stock_Load);
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.electronicproductDataSetBindingSource)).EndInit();

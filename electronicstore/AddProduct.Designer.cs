@@ -58,7 +58,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.tblcategoryBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.tblcategoryBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.elecshopfillbycatproductDataSet = new electronicstore.elecshopfillbycatproductDataSet();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -70,6 +71,7 @@
             this.stockidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vIEWPRODUCTSBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.electronicproductDataSet = new electronicstore.electronicproductDataSet();
+            this.tblcategoryBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.vIEWPRODUCTSBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.vIEWPRODUCTSBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.furnitureshopDataSetViewProducts = new electronicstore.electronicstoreDataSetViewProducts();
@@ -79,8 +81,6 @@
             this.electronicstoreDataSetFillProductsPosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.vIEWPRODUCTSBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.tbl_categoryTableAdapter1 = new electronicstore.electronicshopfillbycategoryDataSetTableAdapters.tbl_categoryTableAdapter();
-            this.elecshopfillbycatproductDataSet = new electronicstore.elecshopfillbycatproductDataSet();
-            this.tblcategoryBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.tbl_categoryTableAdapter2 = new electronicstore.elecshopfillbycatproductDataSetTableAdapters.tbl_categoryTableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -91,18 +91,18 @@
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tblcategoryBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblcategoryBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elecshopfillbycatproductDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.electronicproductDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblcategoryBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.furnitureshopDataSetViewProducts)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.electronicstoreDataSetFillProductsPos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.electronicstoreDataSetFillProductsPosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.elecshopfillbycatproductDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblcategoryBindingSource3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -244,6 +244,7 @@
             // electronicshopfillbycategoryDataSet
             // 
             this.electronicshopfillbycategoryDataSet.DataSetName = "electronicshopfillbycategoryDataSet";
+            this.electronicshopfillbycategoryDataSet.Namespace = "http://tempuri.org/electronicshopfillbycategoryDataSet.xsd";
             this.electronicshopfillbycategoryDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // textBox3
@@ -397,9 +398,16 @@
             this.comboBox2.ValueMember = "categoryname";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // tblcategoryBindingSource2
+            // tblcategoryBindingSource3
             // 
-            this.tblcategoryBindingSource2.DataMember = "tbl_category";
+            this.tblcategoryBindingSource3.DataMember = "tbl_category";
+            this.tblcategoryBindingSource3.DataSource = this.elecshopfillbycatproductDataSet;
+            // 
+            // elecshopfillbycatproductDataSet
+            // 
+            this.elecshopfillbycatproductDataSet.DataSetName = "elecshopfillbycatproductDataSet";
+            this.elecshopfillbycatproductDataSet.Namespace = "http://tempuri.org/elecshopfillbycatproductDataSet.xsd";
+            this.elecshopfillbycatproductDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // dataGridView1
             // 
@@ -419,6 +427,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(9, 51);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 100;
             this.dataGridView1.Size = new System.Drawing.Size(1500, 608);
             this.dataGridView1.TabIndex = 0;
@@ -430,51 +439,67 @@
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "CODE";
             this.dataGridViewTextBoxColumn1.HeaderText = "CODE";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 150;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.DataPropertyName = "CATEGORY";
             this.dataGridViewTextBoxColumn2.HeaderText = "CATEGORY";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 150;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "PRODUCTNAME";
             this.dataGridViewTextBoxColumn3.HeaderText = "PRODUCTNAME";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 150;
             // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "DETAILS";
             this.dataGridViewTextBoxColumn4.HeaderText = "DETAILS";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 150;
             // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "PRICE";
             this.dataGridViewTextBoxColumn5.HeaderText = "PRICE";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 150;
             // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "DISCOUNT";
             this.dataGridViewTextBoxColumn6.HeaderText = "DISCOUNT";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Width = 150;
             // 
             // dataGridViewTextBoxColumn7
             // 
             this.dataGridViewTextBoxColumn7.DataPropertyName = "IMAGE";
             this.dataGridViewTextBoxColumn7.HeaderText = "IMAGE";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewTextBoxColumn7.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn7.Width = 150;
             // 
             // stockidDataGridViewTextBoxColumn
             // 
             this.stockidDataGridViewTextBoxColumn.DataPropertyName = "stock_id";
             this.stockidDataGridViewTextBoxColumn.HeaderText = "STOCK ID";
+            this.stockidDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.stockidDataGridViewTextBoxColumn.Name = "stockidDataGridViewTextBoxColumn";
+            this.stockidDataGridViewTextBoxColumn.Width = 150;
             // 
             // vIEWPRODUCTSBindingSource2
             // 
@@ -484,7 +509,12 @@
             // electronicproductDataSet
             // 
             this.electronicproductDataSet.DataSetName = "electronicproductDataSet";
+            this.electronicproductDataSet.Namespace = "http://tempuri.org/electronicproductDataSet.xsd";
             this.electronicproductDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tblcategoryBindingSource2
+            // 
+            this.tblcategoryBindingSource2.DataMember = "tbl_category";
             // 
             // vIEWPRODUCTSBindingSource1
             // 
@@ -499,6 +529,7 @@
             // furnitureshopDataSetViewProducts
             // 
             this.furnitureshopDataSetViewProducts.DataSetName = "furnitureshopDataSetViewProducts";
+            this.furnitureshopDataSetViewProducts.Namespace = "http://tempuri.org/furnitureshopDataSetViewProducts.xsd";
             this.furnitureshopDataSetViewProducts.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // vIEW_PRODUCTSTableAdapter
@@ -512,6 +543,7 @@
             // electronicstoreDataSetFillProductsPos
             // 
             this.electronicstoreDataSetFillProductsPos.DataSetName = "furnitureshopDataSetFillProductsPos";
+            this.electronicstoreDataSetFillProductsPos.Namespace = "http://tempuri.org/furnitureshopDataSetFillProductsPos.xsd";
             this.electronicstoreDataSetFillProductsPos.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // electronicstoreDataSetFillProductsPosBindingSource
@@ -527,16 +559,6 @@
             // tbl_categoryTableAdapter1
             // 
             this.tbl_categoryTableAdapter1.ClearBeforeFill = true;
-            // 
-            // elecshopfillbycatproductDataSet
-            // 
-            this.elecshopfillbycatproductDataSet.DataSetName = "elecshopfillbycatproductDataSet";
-            this.elecshopfillbycatproductDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tblcategoryBindingSource3
-            // 
-            this.tblcategoryBindingSource3.DataMember = "tbl_category";
-            this.tblcategoryBindingSource3.DataSource = this.elecshopfillbycatproductDataSet;
             // 
             // tbl_categoryTableAdapter2
             // 
@@ -554,6 +576,7 @@
             this.Name = "AddProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddProduct";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AddProduct_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -567,18 +590,18 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tblcategoryBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblcategoryBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elecshopfillbycatproductDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.electronicproductDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblcategoryBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.furnitureshopDataSetViewProducts)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.electronicstoreDataSetFillProductsPos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.electronicstoreDataSetFillProductsPosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.elecshopfillbycatproductDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblcategoryBindingSource3)).EndInit();
             this.ResumeLayout(false);
 
         }

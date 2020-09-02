@@ -113,6 +113,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(20, 18);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(804, 282);
             this.dataGridView1.TabIndex = 0;
@@ -126,14 +127,18 @@
             // 
             this.catidDataGridViewTextBoxColumn.DataPropertyName = "cat_id";
             this.catidDataGridViewTextBoxColumn.HeaderText = "CODE";
+            this.catidDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.catidDataGridViewTextBoxColumn.Name = "catidDataGridViewTextBoxColumn";
             this.catidDataGridViewTextBoxColumn.ReadOnly = true;
+            this.catidDataGridViewTextBoxColumn.Width = 150;
             // 
             // categorynameDataGridViewTextBoxColumn
             // 
             this.categorynameDataGridViewTextBoxColumn.DataPropertyName = "categoryname";
             this.categorynameDataGridViewTextBoxColumn.HeaderText = "NAME";
+            this.categorynameDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.categorynameDataGridViewTextBoxColumn.Name = "categorynameDataGridViewTextBoxColumn";
+            this.categorynameDataGridViewTextBoxColumn.Width = 150;
             // 
             // tblcategoryBindingSource
             // 
@@ -143,6 +148,7 @@
             // furnitureshopDataSet
             // 
             this.furnitureshopDataSet.DataSetName = "furnitureshopDataSet";
+            this.furnitureshopDataSet.Namespace = "http://tempuri.org/furnitureshopDataSet.xsd";
             this.furnitureshopDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tbl_categoryTableAdapter
@@ -174,6 +180,7 @@
             this.Name = "AddCategory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddCategory";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AddCategory_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

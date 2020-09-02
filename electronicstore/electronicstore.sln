@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "electronicstore", "electronicstore.csproj", "{6CF8B8AC-B125-4D3D-93C8-22D2261A474D}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Electronic_Store", "..\Electronic_Store\Electronic_Store.vdproj", "{977CBB0B-10DD-43BD-8999-810017A458CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,11 @@ Global
 		{6CF8B8AC-B125-4D3D-93C8-22D2261A474D}.Debug|x86.Build.0 = Debug|x86
 		{6CF8B8AC-B125-4D3D-93C8-22D2261A474D}.Release|x86.ActiveCfg = Release|x86
 		{6CF8B8AC-B125-4D3D-93C8-22D2261A474D}.Release|x86.Build.0 = Release|x86
-		{977CBB0B-10DD-43BD-8999-810017A458CF}.Debug|x86.ActiveCfg = Debug
-		{977CBB0B-10DD-43BD-8999-810017A458CF}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ABF063A-6F89-4CE9-9312-D140E7E82B16}
 	EndGlobalSection
 EndGlobal

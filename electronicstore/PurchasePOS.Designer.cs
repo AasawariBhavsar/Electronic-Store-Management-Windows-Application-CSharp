@@ -108,6 +108,7 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 100;
             this.dataGridView1.Size = new System.Drawing.Size(874, 597);
             this.dataGridView1.TabIndex = 2;
@@ -118,59 +119,75 @@
             // 
             this.cODEDataGridViewTextBoxColumn.DataPropertyName = "CODE";
             this.cODEDataGridViewTextBoxColumn.HeaderText = "CODE";
+            this.cODEDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.cODEDataGridViewTextBoxColumn.Name = "cODEDataGridViewTextBoxColumn";
             this.cODEDataGridViewTextBoxColumn.ReadOnly = true;
+            this.cODEDataGridViewTextBoxColumn.Width = 150;
             // 
             // cATEGORYDataGridViewTextBoxColumn
             // 
             this.cATEGORYDataGridViewTextBoxColumn.DataPropertyName = "CATEGORY";
             this.cATEGORYDataGridViewTextBoxColumn.HeaderText = "CATEGORY";
+            this.cATEGORYDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.cATEGORYDataGridViewTextBoxColumn.Name = "cATEGORYDataGridViewTextBoxColumn";
             this.cATEGORYDataGridViewTextBoxColumn.ReadOnly = true;
+            this.cATEGORYDataGridViewTextBoxColumn.Width = 150;
             // 
             // pRODUCTNAMEDataGridViewTextBoxColumn
             // 
             this.pRODUCTNAMEDataGridViewTextBoxColumn.DataPropertyName = "PRODUCTNAME";
             this.pRODUCTNAMEDataGridViewTextBoxColumn.HeaderText = "PRODUCTNAME";
+            this.pRODUCTNAMEDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.pRODUCTNAMEDataGridViewTextBoxColumn.Name = "pRODUCTNAMEDataGridViewTextBoxColumn";
             this.pRODUCTNAMEDataGridViewTextBoxColumn.ReadOnly = true;
+            this.pRODUCTNAMEDataGridViewTextBoxColumn.Width = 150;
             // 
             // dETAILSDataGridViewTextBoxColumn
             // 
             this.dETAILSDataGridViewTextBoxColumn.DataPropertyName = "DETAILS";
             this.dETAILSDataGridViewTextBoxColumn.HeaderText = "DETAILS";
+            this.dETAILSDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.dETAILSDataGridViewTextBoxColumn.Name = "dETAILSDataGridViewTextBoxColumn";
             this.dETAILSDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dETAILSDataGridViewTextBoxColumn.Width = 150;
             // 
             // pRICEDataGridViewTextBoxColumn
             // 
             this.pRICEDataGridViewTextBoxColumn.DataPropertyName = "PRICE";
             this.pRICEDataGridViewTextBoxColumn.HeaderText = "PRICE";
+            this.pRICEDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.pRICEDataGridViewTextBoxColumn.Name = "pRICEDataGridViewTextBoxColumn";
             this.pRICEDataGridViewTextBoxColumn.ReadOnly = true;
+            this.pRICEDataGridViewTextBoxColumn.Width = 150;
             // 
             // dISCOUNTDataGridViewTextBoxColumn
             // 
             this.dISCOUNTDataGridViewTextBoxColumn.DataPropertyName = "DISCOUNT";
             this.dISCOUNTDataGridViewTextBoxColumn.HeaderText = "DISCOUNT";
+            this.dISCOUNTDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.dISCOUNTDataGridViewTextBoxColumn.Name = "dISCOUNTDataGridViewTextBoxColumn";
             this.dISCOUNTDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dISCOUNTDataGridViewTextBoxColumn.Width = 150;
             // 
             // iMAGEDataGridViewTextBoxColumn
             // 
             this.iMAGEDataGridViewTextBoxColumn.DataPropertyName = "IMAGE";
             this.iMAGEDataGridViewTextBoxColumn.HeaderText = "IMAGE";
+            this.iMAGEDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.iMAGEDataGridViewTextBoxColumn.Name = "iMAGEDataGridViewTextBoxColumn";
             this.iMAGEDataGridViewTextBoxColumn.ReadOnly = true;
             this.iMAGEDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.iMAGEDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.iMAGEDataGridViewTextBoxColumn.Width = 150;
             // 
             // stockidDataGridViewTextBoxColumn
             // 
             this.stockidDataGridViewTextBoxColumn.DataPropertyName = "stock_id";
             this.stockidDataGridViewTextBoxColumn.HeaderText = "STOCK ID";
+            this.stockidDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.stockidDataGridViewTextBoxColumn.Name = "stockidDataGridViewTextBoxColumn";
             this.stockidDataGridViewTextBoxColumn.ReadOnly = true;
+            this.stockidDataGridViewTextBoxColumn.Width = 150;
             // 
             // vIEWPRODUCTSBindingSource2
             // 
@@ -185,6 +202,7 @@
             // electronicproductDataSet
             // 
             this.electronicproductDataSet.DataSetName = "electronicproductDataSet";
+            this.electronicproductDataSet.Namespace = "http://tempuri.org/electronicproductDataSet.xsd";
             this.electronicproductDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // vIEWPRODUCTSBindingSource
@@ -195,6 +213,7 @@
             // furnitureshopDataSetFillProductsPos
             // 
             this.furnitureshopDataSetFillProductsPos.DataSetName = "furnitureshopDataSetFillProductsPos";
+            this.furnitureshopDataSetFillProductsPos.Namespace = "http://tempuri.org/furnitureshopDataSetFillProductsPos.xsd";
             this.furnitureshopDataSetFillProductsPos.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // dataGridView2
@@ -212,38 +231,49 @@
             this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.RowHeadersWidth = 62;
             this.dataGridView2.Size = new System.Drawing.Size(845, 409);
             this.dataGridView2.TabIndex = 3;
             // 
             // CODE
             // 
             this.CODE.HeaderText = "CODE";
+            this.CODE.MinimumWidth = 8;
             this.CODE.Name = "CODE";
             this.CODE.ReadOnly = true;
+            this.CODE.Width = 150;
             // 
             // PRODUCTNAME
             // 
             this.PRODUCTNAME.HeaderText = "PRODUCTNAME";
+            this.PRODUCTNAME.MinimumWidth = 8;
             this.PRODUCTNAME.Name = "PRODUCTNAME";
             this.PRODUCTNAME.ReadOnly = true;
+            this.PRODUCTNAME.Width = 150;
             // 
             // PRICE
             // 
             this.PRICE.HeaderText = "PRICE";
+            this.PRICE.MinimumWidth = 8;
             this.PRICE.Name = "PRICE";
             this.PRICE.ReadOnly = true;
+            this.PRICE.Width = 150;
             // 
             // QUANTITY
             // 
             this.QUANTITY.HeaderText = "QUANTITY";
+            this.QUANTITY.MinimumWidth = 8;
             this.QUANTITY.Name = "QUANTITY";
             this.QUANTITY.ReadOnly = true;
+            this.QUANTITY.Width = 150;
             // 
             // TOTAL
             // 
             this.TOTAL.HeaderText = "TOTAL";
+            this.TOTAL.MinimumWidth = 8;
             this.TOTAL.Name = "TOTAL";
             this.TOTAL.ReadOnly = true;
+            this.TOTAL.Width = 150;
             // 
             // vIEW_PRODUCTSTableAdapter
             // 
@@ -413,6 +443,7 @@
             // electronicstoreDataSet
             // 
             this.electronicstoreDataSet.DataSetName = "furnitureshopDataSet";
+            this.electronicstoreDataSet.Namespace = "http://tempuri.org/furnitureshopDataSet.xsd";
             this.electronicstoreDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label1
@@ -448,6 +479,7 @@
             // electshopfillbycategoryPurDataSet
             // 
             this.electshopfillbycategoryPurDataSet.DataSetName = "electshopfillbycategoryPurDataSet";
+            this.electshopfillbycategoryPurDataSet.Namespace = "http://tempuri.org/electshopfillbycategoryPurDataSet.xsd";
             this.electshopfillbycategoryPurDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tbl_categoryTableAdapter
@@ -483,6 +515,7 @@
             this.Name = "PurchasePOS";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PurchasePOS";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.PurchasePOS_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vIEWPRODUCTSBindingSource2)).EndInit();
